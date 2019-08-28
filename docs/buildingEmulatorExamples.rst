@@ -138,7 +138,7 @@ Building emulator measurements nomenclature
 +-----------------------+-------------------------------------------------------------+---------+
 | floor#_TSupAir_y      | actual AHU supply air temperature on floor #                | Kelvin  |
 +-----------------------+-------------------------------------------------------------+---------+
-| floor#_TSupAirSetPoi_y| AHU supply air temperature detpoint on floor #              | Kelvin  |
+| floor#_TSupAirSetPoi_y| AHU supply air temperature setpoint on floor #              | Kelvin  |
 +-----------------------+-------------------------------------------------------------+---------+
 | floor#_mSupAir_y      | actual AHU air supply mass flow on floor #                  | Kg/s    |
 +-----------------------+-------------------------------------------------------------+---------+
