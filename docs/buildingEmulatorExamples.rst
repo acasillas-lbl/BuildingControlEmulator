@@ -138,6 +138,8 @@ Building emulator measurements nomenclature
 +-----------------------+-------------------------------------------------------------+---------+
 | floor#_TSupAir_y      | actual AHU supply air temperature on floor #                | Kelvin  |
 +-----------------------+-------------------------------------------------------------+---------+
+| floor#_TSupAirSetPoi_y| AHU supply air temperature detpoint on floor #              | Kelvin  |
++-----------------------+-------------------------------------------------------------+---------+
 | floor#_mSupAir_y      | actual AHU air supply mass flow on floor #                  | Kg/s    |
 +-----------------------+-------------------------------------------------------------+---------+
 | floor#_FanSpe         | AHU speed on floor #                                        |Fraction |
@@ -145,6 +147,14 @@ Building emulator measurements nomenclature
 | floor#_Pre            | AHU static pressure on floor #                              | Pa      |
 +-----------------------+-------------------------------------------------------------+---------+
 | floor#_PreSetPoi      | AHU static pressure set point on floor #                    | Pa      |
++-----------------------+-------------------------------------------------------------+---------+
+| floor#_CooValPos_y    | actual AHU cooling coil valve position on floor #           |Fraction |
++-----------------------+-------------------------------------------------------------+---------+
+| floor#_CooValConSig_y | AHU cooling coil valve control signal on floor #            |Fraction |
++-----------------------+-------------------------------------------------------------+---------+
+| floor#_OADampPos_y    | damper position at the AHU level on floor #                 |Fraction |
++-----------------------+-------------------------------------------------------------+---------+
+| floor#_OADampConsig_y | damper control signal at the AHU level on floor #           |Fraction |
 +-----------------------+-------------------------------------------------------------+---------+
 | floor#_zon#_TMixAir_y | actual mixed air temperature in zone # on floor #           | Kelvin  |
 +-----------------------+-------------------------------------------------------------+---------+
